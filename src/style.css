@@ -1,3 +1,9 @@
 * {
   box-sizing: border-box;
+  font-family: general;
+}
+
+@font-face {
+  font-family: general;
+  src: url("../src//Pages/Fonts/IRANSansXFaNum-Regular.ttf");
 }
