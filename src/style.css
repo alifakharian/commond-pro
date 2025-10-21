@@ -1,3 +1,198 @@
 * {
   box-sizing: border-box;
+  direction: rtl;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media only screen and (max-width : 768px) {
+
+  /* About Part */
+  .aboutUs-part>div {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 128px;
+  }
+
+  .aboutUs-part-image>img {
+    width: 214px;
+    height: 184px;
+  }
+
+  .aboutUs-part-image>span {
+    right: 186px;
+    top: 20px;
+  }
+
+
+  /* Services Part */
+  .services-part {
+    margin: 155px 0 0 0;
+  }
+
+  .services-part>div {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  /* Benefit Part */
+  .benefits-items {
+    flex-direction: column;
+  }
+
+  .wraper-benefits {
+    flex-direction: column;
+  }
+
+  .benefits-items-child {
+    width: 285px;
+    height: 237px;
+  }
+
+  .benefits-items-child>h3 {
+    font-size: 16px;
+  }
+
+  .benefits-items-child>p {
+    font-size: 12px;
+    text-align: center;
+    width: 263px;
+  }
+
+
+  /* Project Part */
+  .rectangleProjects-container {
+    flex-direction: column;
+  }
+
+  .rectangleProjects-container>img {
+    width: 214px;
+    height: 184px;
+  }
+
+  .rectangleProjects-container>div {
+    text-align: center;
+    align-items: center;
+  }
+
+  .rectangleProjects-container>div>h3 {
+    font-size: 16px;
+  }
+
+  .rectangleProjects-container>div>p {
+    font-size: 12px;
+    width: 304px;
+  }
+
+
+  /* Contact Us Part */
+  .contactUs-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactUs-part>div {
+    width: 394px;
+    height: 108px;
+  }
+
+  .contactUs-image {
+    width: 62px;
+    height: 105px;
+    right: 1px;
+    top: 1px;
+  }
+
+  .contactUs-image-2 {
+    width: 87px;
+    height: 124px;
+    top: -43px;
+    right: 15px;
+  }
+
+  .contactUs-image-3 {
+    display: none;
+  }
+
+  .contactUs-text {
+    display: block;
+    height: 54px;
+    position: relative;
+    top: -27px;
+    right: -18px;
+    text-align: center;
+    width: 228px;
+  }
+
+  .contactUs-part>div>button {
+    width: 80px;
+    height: 26px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0px -70px 7px 0;
+  }
+
+
+  /* Question Part */
+  .button-container {
+    gap: 10px;
+  }
+
+  .button-question {
+    font-size: 14px;
+    font-weight: 400;
+    width: 112px;
+    height: 33px;
+  }
+
+  .image-question {
+    flex-direction: column;
+  }
+
+  .image-question>div {
+    align-items: normal;
+  }
+
+  .image-question>img {
+    width: 214px;
+    height: 184px;
+  }
+
+  .main-question,
+  .respons-question {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .respons-question {
+    width: 400px;
+  }
 }

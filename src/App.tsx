@@ -1,8 +1,17 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import SharedLayout from './Pages/ShareLayout';
+import Home from './Pages/Home';
 
 
 function App() {
   return (
-    <div className="text-center bg-red-500 text-white p-5  font-bold">App</div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/commond-pro' element={<SharedLayout />}>
+          <Route index element={<Home/>}/>
+        </Route>
+      </Routes>
+    </BrowserRouter >
   );
 }
 
