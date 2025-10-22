@@ -7,3 +7,12 @@
   font-family: general;
   src: url("../src//Pages/Fonts/IRANSansXFaNum-Regular.ttf");
 }
+.custom-position {
+  right: -6px;
+}
+
+@media (min-width: 768px) {
+  .custom-position {
+    right: -32px;
+  }
+}

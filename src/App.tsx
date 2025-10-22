@@ -1,4 +1,4 @@
-import Wapper from "./Pages/Components/Wapper/Wapper";
+import Wapper from "./pages/Components/Wapper/Wapper";
 
 function App() {
   return (

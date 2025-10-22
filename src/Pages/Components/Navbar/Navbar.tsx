@@ -14,9 +14,9 @@ function Navbar() {
   const navItem: Inavitem[] = [
     { item: "خانه", link: "/" },
     { item: "درباره ما", link: "/Aboutus" },
-    { item: "خدمات", link: "/serves" },
-    { item: "پروژه ها", link: "/project" },
-    { item: "تماس با ما", link: "/call" },
+    { item: "خدمات", link: "/OurServices" },
+    { item: "پروژه ها", link: "/OurProjects" },
+    { item: "تماس با ما", link: "/ContactUs" },
   ];
 
   return (
