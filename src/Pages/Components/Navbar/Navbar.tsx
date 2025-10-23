@@ -21,9 +21,10 @@ function Navbar() {
 
   return (
     <nav className="relative">
-      <div className="lg:flex hidden  justify-between flex-row-reverse p-4 bg-gray-300">
-        <div className="text-xl mt-1 font-bold">لوگو</div>
-
+      <div className="lg:flex hidden  justify-between flex-row-reverse p-4">
+        <button className="text-yellow-900 font-black border-2 w-[160px] h-[48px] mt-2 rounded-lg p-1">
+          مشاوره
+        </button>
         <ul className="lg:flex hidden gap-4 flex-row-reverse justify-center">
           {navItem.map((elem) => (
             <li key={elem.link} className="px-3 py-1 rounded">
@@ -31,9 +32,8 @@ function Navbar() {
             </li>
           ))}
         </ul>
-        <button className="text-yellow-900 font-black border-2 w-[85px] mt-2 rounded-lg p-1">
-          مشاوره
-        </button>
+
+        <img src="Images/logo.png" alt="logo" className="w-[72px] h-[72px] " />
       </div>
 
       <div className="lg:hidden flex justify-between flex-row-reverse items-center p-4 bg-gray-300">
@@ -49,9 +49,8 @@ function Navbar() {
       </div>
 
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-gray-300 z-50 shadow-lg transform transition-transform duration-300 lg:hidden ${
-          open ? "translate-x-0" : "-translate-x-full"
-        }`}
+        className={`fixed top-0 left-0 h-full w-64 bg-gray-300 z-50 shadow-lg transform transition-transform duration-300 lg:hidden ${open ? "translate-x-0" : "-translate-x-full"
+          }`}
       >
         {/* دکمه ضربدر */}
         <div className="flex justify-end p-4">

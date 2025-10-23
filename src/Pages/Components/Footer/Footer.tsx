@@ -14,10 +14,10 @@ function Footer() {
   ];
 
   return (
-    <div className="bg-[#dbb658] py-6 px-3 text-gray-700">
+    <div className="bg-[#F1EAE7] py-6 px-3 text-[#362826]">
       {/* بخش بالا */}
       <div className="flex flex-col md:flex-row-reverse justify-between  items-center md:items-start gap-5 mb-5">
-        <div className="text-2xl font-bold">لوگو</div>
+        <img src="Images/logo.png" alt="logo" className="w-[72px] h-[72px] "/>
 
         <ul className="flex flex-wrap justify-center md:justify-center gap-3 md:gap-5 text-sm md:text-base">
           {navItem.map((elem) => (

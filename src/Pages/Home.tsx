@@ -77,7 +77,7 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div className="benefits-items-child flex flex-col items-center gap-3.5 w-[946px] h-[248px] border-[3px] border-[#2D2523] rounded-b-[40px] rounded-tr-[40px] col-span-2 p-4">
+                        <div className="benefits-items-child-2 flex flex-col items-center gap-3.5 w-[946px] h-[248px] border-[3px] border-[#2D2523] rounded-b-[40px] rounded-tr-[40px] col-span-2 p-4">
                             <img src="./Images/draw.png" alt="draw" className="w-[49px] h-[49px] " />
                             <h3 className="text-[#B85C38] text-[22px] font-semibold">نوآوری و هوش مصنوعی در طراحی</h3>
                             <p className="text-[22px] font-normal text-[#000000]">
