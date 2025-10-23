@@ -53,7 +53,7 @@ const ContactUs: React.FC = () => {
                 {/* دو ستون اصلی */}
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
                     {/* ستون راست: تصویر و متن */}
-                    <div className="md:col-span-6 flex flex-col items-center gap-12 text-center">
+                    <div className="md:col-span-5 lg:col-span-6 md:mr-4 lg:mr-0 flex flex-col items-center gap-12 text-center">
                         <div className="relative flex justify-center md:justify-end">
                             <img
                                 src={Frame}
@@ -67,9 +67,9 @@ const ContactUs: React.FC = () => {
                             />
 
                         </div>
-                        <div className='lg:px-0 pr-8'>
+                        <div className='lg:px-0'>
                             <p className='text-[#B85C38] font-bold lg:text-[22px] md:text-[18px] text-[16px] text-right'>چرا با ما تماس بگیرید؟</p>
-                            <p className="text-[#2D2523] font-[500] lg:text-[22px] md:text-[18px] text-[16px] md:w-[460px] text-right leading-[160%] tracking-[3%]">
+                            <p className="text-[#2D2523] font-[500] lg:text-[22px] md:text-[18px] text-[16px] lg:w-[460px] md:w-[360px] text-right leading-[160%] tracking-[3%]">
                                 دریافت مشاوره رایگان و تخصصی برای پروژه شما
                                 ارزیابی دقیق پروژه و برآورد هزینه و زمان‌بندی
                                 بهره‌مندی از تخصص و تجربه تیم حرفه‌ای ما

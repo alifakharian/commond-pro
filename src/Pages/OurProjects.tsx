@@ -34,7 +34,6 @@ const OurProjects: React.FC = () => {
         }}
         categories={categories}
       />
-
       <div className="flex flex-col gap-12 mt-8 mx-auto">
         {paginatedProjects.map((project) => (
           <ProjectCard key={project.id} project={project} />
