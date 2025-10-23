@@ -2,12 +2,7 @@ import './MainSlider.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 
-
 import 'swiper/css';
-
-
-
-
 
 const MainSlider = () => {
 
@@ -23,8 +18,8 @@ const MainSlider = () => {
 
     const slides: Slides[] = [
         { id: 1, title: "خدمــات مهندســی ساختمانــی ســــاختبوم", mainTxt: "یــک اکــوسیستــم کامــل بــــــــرای ســاخت و ســاز", img: "Images/desk-9.jpg", textBtn: "اطلاعات بیشتر ← ", hrefBtn: "/commond-pro", hrefTitle: "/commond-pro"},
-        { id: 4, title: "پروژه های ما", mainTxt: "خدمــات مهندســی ساختمانــی ســــاختبوم", img: "Images/contact.jpg"  , hrefTitle: "/commond-pro/ourProject"},
-        { id: 2, title: "درباره ما", mainTxt: "خدمــات مهندســی ساختمانــی ســــاختبوم", img: "Images/about.jpg", textBtn: "با ما در ارتباط باشید", hrefBtn: "/commond-pro/aboutUs", hrefTitle:"/commond-pro/aboutUs" },
+        { id: 4, title: "پروژه های ما", mainTxt: "خدمــات مهندســی ساختمانــی ســــاختبوم", img: "Images/contact.jpg",textBtn: "پروژ های ما",hrefBtn:"/commond-pro/OurProjects"  , hrefTitle: "/commond-pro/OurProjects"},
+        { id: 2, title: "درباره ما", mainTxt: "خدمــات مهندســی ساختمانــی ســــاختبوم", img: "Images/about.jpg", textBtn: "با ما در ارتباط باشید", hrefBtn:"/commond-pro/Aboutus", hrefTitle:"/commond-pro/Aboutus" },
         { id: 3, title: "تماس با ما", mainTxt: "خدمــات مهندســی ساختمانــی ســــاختبوم", img: "Images/contact.jpg" , hrefTitle: "/commond-pro/contactUs" },
         { id: 5, title: "خدمات ما", mainTxt: "خدمــات مهندســی ساختمانــی ســــاختبوم", img: "Images/desk-8.png" , hrefTitle: "/commond-pro/servieces" }
     ];

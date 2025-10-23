@@ -3,11 +3,6 @@ import RectangleServices from "../Components/RectangleSevices";
 import FAQSection from "../Components/QuastionBox";
 
 
-
-
-
-
-
 // Images of Projects Part
 const images: string[] = ["./Images/projects-part-desk-9.png", "./Images/projects-part-desk-9(2).png", "./Images/projects-part-desk-9(3).png"];
 

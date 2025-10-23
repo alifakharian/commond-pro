@@ -4,31 +4,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Responsive */
 @media only screen and (max-width : 768px) {
 
@@ -194,5 +169,19 @@
 
   .respons-question {
     width: 400px;
+  font-family: general;
+}
+
+@font-face {
+  font-family: general;
+  src: url("../src//Pages/Fonts/IRANSansXFaNum-Regular.ttf");
+}
+
+  .custom-position {
+    right: -32px;
+
   }
+}
+.custom-position {
+  right: -6px;
 }
