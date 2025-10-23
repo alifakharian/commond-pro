@@ -1,4 +1,4 @@
-import img1 from "../../images/Aboutus/1.jpg";
+import img1 from "../../images/Aboutus/2.jpg";
 
 function Part4() {
   return (
@@ -25,11 +25,12 @@ function Part4() {
           </p>
         </div>
 
-        <div>
+        <div className="relative">
           <img
             src={img1}
-            className="size-[400px] rounded-xl img-fluid cursor-pointer"
+            className="size-[400px] rounded-b-2xl rounded-tr-2xl  img-fluid cursor-pointer"
           />
+          <div className="absolute size-[440px]   border-2 rounded-b-3xl rounded-tl-3xl   border-gray-400 top-[-20px] right-[30px]"></div>
         </div>
       </div>
     </>
