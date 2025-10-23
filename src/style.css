@@ -1,8 +1,8 @@
 * {
   box-sizing: border-box;
   direction: rtl;
+  font-family: general;
 }
-
 
 @font-face {
   font-family: general;
@@ -11,23 +11,14 @@
 
 .custom-position {
   right: -32px;
-
 }
 
 .custom-position {
   right: -6px;
 }
 
-
-
-
-
-
-
-
 /* Responsive */
-@media only screen and (max-width : 1024px) {
-
+@media only screen and (max-width: 1024px) {
   /* About Part */
   .aboutUs-part {
     gap: 23px;
@@ -37,12 +28,12 @@
     width: 380px;
   }
 
-  .aboutUs-part-image>img {
+  .aboutUs-part-image > img {
     width: 436px;
     height: 350px;
   }
 
-  .aboutUs-part-image>span {
+  .aboutUs-part-image > span {
     right: 333px;
   }
 
@@ -60,24 +51,23 @@
     width: 689px;
   }
 
-  .benefits-items-child>h3 {
+  .benefits-items-child > h3 {
     font-size: 16px;
   }
 
-  .benefits-items-child>p,
-  .benefits-items-child-2>p {
+  .benefits-items-child > p,
+  .benefits-items-child-2 > p {
     font-size: 17px;
     text-align: center;
     width: 263px;
   }
 
-  .benefits-items-child-2>p {
+  .benefits-items-child-2 > p {
     width: 611px;
   }
 
-
   /* Project Part */
-  .rectangleProjects-container>img {
+  .rectangleProjects-container > img {
     height: 373px;
     width: 440px;
   }
@@ -99,11 +89,10 @@
     right: 164px;
   }
 
-  .contactUs-part>div>button {
+  .contactUs-part > div > button {
     margin: 0 25px 27px 86px;
     width: 240px;
   }
-
 
   /* Question Part */
   .image-question {
@@ -111,40 +100,37 @@
   }
 }
 
-@media only screen and (max-width : 820px) {
-
+@media only screen and (max-width: 820px) {
   /* About Part */
   .aboutUs-part {
     gap: 200px;
   }
 
-  .aboutUs-part>div {
+  .aboutUs-part > div {
     flex-direction: column;
     align-items: center;
     margin-top: 128px;
   }
 
-  .aboutUs-part-image>img {
+  .aboutUs-part-image > img {
     width: 214px;
     height: 184px;
   }
 
-  .aboutUs-part-image>span {
+  .aboutUs-part-image > span {
     right: 186px;
     top: 20px;
   }
-
 
   /* Services Part */
   .services-part {
     margin: 155px 0 0 0;
   }
 
-  .services-part>div {
+  .services-part > div {
     display: flex;
     flex-direction: column;
   }
-
 
   /* Benefit Part */
   .benefits-items {
@@ -161,44 +147,42 @@
     height: 237px;
   }
 
-  .benefits-items-child-2>h3 {
+  .benefits-items-child-2 > h3 {
     font-size: 16px;
   }
 
-  .benefits-items-child-2>p {
+  .benefits-items-child-2 > p {
     width: 252px;
     font-size: 12px;
   }
 
-  .benefits-items-child>p {
+  .benefits-items-child > p {
     font-size: 12px;
   }
-
 
   /* Project Part */
   .rectangleProjects-container {
     flex-direction: column;
   }
 
-  .rectangleProjects-container>img {
+  .rectangleProjects-container > img {
     width: 214px;
     height: 184px;
   }
 
-  .rectangleProjects-container>div {
+  .rectangleProjects-container > div {
     text-align: center;
     align-items: center;
   }
 
-  .rectangleProjects-container>div>h3 {
+  .rectangleProjects-container > div > h3 {
     font-size: 16px;
   }
 
-  .rectangleProjects-container>div>p {
+  .rectangleProjects-container > div > p {
     font-size: 12px;
     width: 304px;
   }
-
 
   /* Contact Us Part */
   .contactUs-part {
@@ -207,7 +191,7 @@
     align-items: center;
   }
 
-  .contactUs-part>div {
+  .contactUs-part > div {
     width: 394px;
     height: 108px;
   }
@@ -240,7 +224,7 @@
     width: 228px;
   }
 
-  .contactUs-part>div>button {
+  .contactUs-part > div > button {
     width: 80px;
     height: 26px;
     font-size: 12px;
@@ -248,7 +232,6 @@
     padding: 0;
     margin: 0px -70px 7px 0;
   }
-
 
   /* Question Part */
 
@@ -271,11 +254,11 @@
     flex-direction: column;
   }
 
-  .image-question>div {
+  .image-question > div {
     align-items: normal;
   }
 
-  .image-question>img {
+  .image-question > img {
     width: 214px;
     height: 184px;
   }
@@ -292,30 +275,27 @@
   }
 }
 
-@media only screen and (max-width : 768px) {
-
+@media only screen and (max-width: 768px) {
   /* About Part */
   .aboutUs-part {
     gap: 227px;
   }
 }
 
-@media only screen and (max-width : 375px) {
-
+@media only screen and (max-width: 375px) {
   /* About Part */
   .aboutUs-part-text {
     align-items: center;
   }
 
-  .aboutUs-part-text>div>p {
+  .aboutUs-part-text > div > p {
     font-size: 18px;
     text-align: center;
     padding-right: 19px;
   }
 
-
   /* Rectangle Part */
-  .services-part>div {
+  .services-part > div {
     gap: 72px;
   }
 
@@ -323,24 +303,22 @@
     padding-right: 10px;
   }
 
-  .rectangleServices-text>h3,
-  .rectangleServices-text>p {
+  .rectangleServices-text > h3,
+  .rectangleServices-text > p {
     text-align: center;
   }
-
 
   /* Contact Part */
   .contactUs-part {
     margin-right: 26px;
   }
 
-
   /* Question Part */
   .question-part {
     margin-bottom: 0;
   }
 
-  .image-question>div {
+  .image-question > div {
     width: 334px;
   }
 }

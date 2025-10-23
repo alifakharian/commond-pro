@@ -6,18 +6,18 @@ import type { Inavitem } from "../Navbar/Navbar";
 
 function Footer() {
   const navItem: Inavitem[] = [
-    { item: "خانه", link: "/" },
-    { item: "درباره ما", link: "/Aboutus" },
-    { item: "خدمات", link: "/serves" },
-    { item: "پروژه ها", link: "/project" },
-    { item: "تماس با ما", link: "/call" },
+    { item: "خانه", link: "/commond-pro/" },
+    { item: "درباره ما", link: "/commond-pro/Aboutus" },
+    { item: "خدمات", link: "/commond-pro/OurServices" },
+    { item: "پروژه ها", link: "/commond-pro/OurProjects" },
+    { item: "تماس با ما", link: "/commond-pro/ContactUs" },
   ];
 
   return (
     <div className="bg-[#F1EAE7] py-6 px-3 text-[#362826]">
       {/* بخش بالا */}
       <div className="flex flex-col md:flex-row-reverse justify-between  items-center md:items-start gap-5 mb-5">
-        <img src="Images/logo.png" alt="logo" className="w-[72px] h-[72px] "/>
+        <img src="Images/logo.png" alt="logo" className="w-[72px] h-[72px] " />
 
         <ul className="flex flex-wrap justify-center md:justify-center gap-3 md:gap-5 text-sm md:text-base">
           {navItem.map((elem) => (
