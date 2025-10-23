@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <nav className="relative">
       <div className="lg:flex hidden  justify-between flex-row-reverse p-4">
-        <button className="text-yellow-900 font-black border-2 w-[160px] h-[48px] mt-2 rounded-lg p-1">
+        <button className="text-yellow-900 font-black border-2 w-[80px] h-[48px] mt-2 rounded-lg p-1">
           مشاوره
         </button>
         <ul className="lg:flex hidden gap-4 flex-row-reverse justify-center">
