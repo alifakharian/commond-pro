@@ -19,9 +19,7 @@
 }
 
 
-.question-part {
-  margin-bottom: -330px;
-}
+
 
 
 
@@ -253,6 +251,11 @@
 
 
   /* Question Part */
+
+  .question-part {
+    margin-bottom: -330px;
+  }
+
   .button-container {
     gap: 10px;
   }
