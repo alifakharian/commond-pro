@@ -46,7 +46,7 @@ const MainSlider = () => {
                                 </a>
                             </h1>
                             <h4 className='w-[860px] h-[77px] text-white text-5xl leading-[160%] font-extrabold text-center z-10'>{img.mainTxt}</h4>
-                            <button className={`w-[166px] h-[48px] bg-[#B85C38] text-[#FFFFFF] text-[20px] leading-[160%] font-medium cursor-pointer z-10 ${img.hrefBtn ? 'block' : 'hidden'} `}>
+                            <button className={`w-[166px] h-[48px] bg-[#B85C38] text-[#FFFFFF] text-[20px] leading-[160%] font-medium cursor-pointer z-10 mt-6 ${img.hrefBtn ? 'block' : 'hidden'} `}>
                                 <a href={`${img.hrefBtn}`}>{img.textBtn}</a>
                             </button>
                         </div>
