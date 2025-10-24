@@ -25,7 +25,7 @@ function Navbar() {
         <button className="text-yellow-900 font-black border-2 w-[80px] h-[48px] mt-2 rounded-lg p-1">
           مشاوره
         </button>
-        <ul className="lg:flex hidden gap-4 flex-row-reverse justify-center">
+        <ul className="lg:flex hidden gap-4 flex-row justify-center">
           {navItem.map((elem) => (
             <li key={elem.link} className="px-3 py-1 rounded">
               <Link to={elem.link}>{elem.item}</Link>
