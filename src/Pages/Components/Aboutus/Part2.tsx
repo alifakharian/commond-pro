@@ -1,16 +1,21 @@
 function Part2() {
   return (
     <div
-      className="flex pl-[50px] gap-3vw  flex-nowrap justify-between items-center border-2  border-gray-700 mx-5 my-[50px] p-3
-    rounded-b-3xl rounded-tl-3xl 
-    "
+      className="
+      flex flex-col sm:flex-row justify-between items-center
+      border-2 border-gray-700 mx-3 sm:mx-5 my-6 sm:my-[50px] 
+      p-3 sm:p-5 rounded-b-3xl rounded-tl-3xl
+      text-center sm:text-right
+      "
     >
       {/* بخش سمت راست */}
-      <div className="flex  ml-3  flex-nowrap items-center  gap-[4vw] sm:gap-[3vw] md:gap-[10vw]">
-        <div
-          className="flex flex-col font-black text-sm sm:text-base md:text-lg"
-          dir="rtl"
-        >
+      <div className="
+        flex flex-col sm:flex-row items-center 
+        gap-6 sm:gap-[6vw] md:gap-[8vw] 
+        mb-4 sm:mb-0
+      ">
+        {/* جوایز صنعتی */}
+        <div className="flex flex-col font-black text-sm sm:text-base md:text-lg" dir="rtl">
           <p>جوایز</p>
           <p>صنعتی</p>
         </div>
@@ -18,10 +23,9 @@ function Part2() {
           <p>150</p>
           <p className="mt-[2px]">+</p>
         </div>
-        <div
-          className="flex flex-col font-black text-sm sm:text-base md:text-lg"
-          dir="rtl"
-        >
+
+        {/* رضایت مشتری */}
+        <div className="flex flex-col font-black text-sm sm:text-base md:text-lg" dir="rtl">
           <p>رضایت</p>
           <p>مشتری</p>
         </div>
@@ -32,12 +36,11 @@ function Part2() {
       </div>
 
       {/* جداکننده و بخش سمت چپ */}
-      <div className="flex  flex-nowrap bg-blue-4 items-center gap-[3vw] sm:gap-[2vw] md:gap-[4vw]">
-        <div className="w-[1px] h-[50px] bg-gray-800"></div>
-        <div
-          className="flex flex-col font-black text-sm sm:text-base md:text-lg"
-          dir="rtl"
-        >
+      <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-[3vw]">
+        {/* خط جداکننده فقط در حالت desktop */}
+        <div className="hidden sm:block w-[1px] h-[50px] bg-gray-800"></div>
+
+        <div className="flex flex-col font-black text-sm sm:text-base md:text-lg" dir="rtl">
           <p>پروژه</p>
           <p>تکمیل</p>
         </div>

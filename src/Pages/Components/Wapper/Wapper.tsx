@@ -14,7 +14,7 @@ function Wapper() {
       <Navbar />
       <Routes>
         <Route path='/commond-pro' element={<SharedLayout />}>
-          <Route index element={<Home/>}/>
+           <Route index element={<Home/>}/>
         </Route>
         <Route path="/commond-pro/Aboutus" element={<Aboutus />}></Route>
         <Route path="/commond-pro/OurServices" element={<OurServices/>}></Route>
